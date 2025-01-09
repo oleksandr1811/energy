@@ -7,7 +7,7 @@
 ### Способи використання
 
 1. **(Рекомендовано)** Використання API без завантаження файлу:
-   - URL: `https://oleksandr1811.pp.ua/api/energy.php`
+   - URL: `https://-/api/energy.php`
    - Метод: POST
    - Параметри:
      - `accountNumber`: номер особового рахунку.
@@ -25,7 +25,7 @@
 ### Способи використання
 
 1. **(Рекомендовано)** Використання API для Telegram-бота без завантаження файлу:
-   - URL: `https://oleksandr1811.pp.ua/api/energy-tg.php`
+   - URL: `https://-/api/energy-tg.php`
    - Метод: POST
    - Параметри:
      - `accountNumber`: номер особового рахунку.
@@ -49,7 +49,7 @@
 
 #### Запит
 ```
-POST https://oleksandr1811.pp.ua/api/energy.php
+POST https:/-/api/energy.php
 Content-Type: application/json
 
 {
